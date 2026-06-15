@@ -1,0 +1,10 @@
+#Print a Sentence
+print("hello world")
+#Print a Number
+print(8+10)
+#Next Line after print
+print("what time is it? \n")
+#Pass multiple arguments for printing
+print("okey dokey","what is going on?","where am i?")
+#End argument of Print Statement
+print("my final statement is that this should'nt be allowed",end="*")
