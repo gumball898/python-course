@@ -1,0 +1,21 @@
+# 1. Take inputs from the user
+name = input("Enter the person's name: ")
+achievement = input("What did they achieve? (e.g., graduation, promotion): ")
+
+# 2. Use string methods to clean up and format the text
+# .strip() removes accidental extra spaces; .title() capitalizes the first letters
+clean_name = name.strip().title()
+clean_achievement = achievement.strip().lower()
+
+# 3. Create the customized message using string concatenation (+)
+message = "Congratulations, " + clean_name + " on your " + clean_achievement + "!"
+
+# 4. Use string multiplication (*) to create a dynamic decorative border
+# We make the border match the exact length of our message
+border_length = len(message)
+border = "*" * border_length
+
+# 5. Print the final message box
+print("\n" + border)
+print(message)
+print(border)
