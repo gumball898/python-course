@@ -1,0 +1,14 @@
+# Summer Time Program
+
+print("🌞 Summer Time Activity Checker 🌞")
+
+temperature = int(input("Enter today's temperature (°F): "))
+
+if temperature >= 95:
+    print("It's extremely hot! Stay inside, drink lots of water, and keep cool.")
+elif temperature >= 80:
+    print("Perfect summer weather! Go swimming, play outside, or have a picnic.")
+elif temperature >= 65:
+    print("It's a nice day! Take a walk, ride your bike, or visit a park.")
+else:
+    print("It's a cool summer day. You might want to wear a light jacket.")
