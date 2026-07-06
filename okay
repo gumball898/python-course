@@ -1,0 +1,11 @@
+import math
+
+# Ask the user for a number
+number = float(input("Enter a number: "))
+
+# Check if the number is negative
+if number < 0:
+    print("Sorry, you can't find the square root of a negative number with this program.")
+else:
+    square_root = math.sqrt(number)
+    print("The square root of", number, "is", square_root)
